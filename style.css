@@ -52,7 +52,16 @@ html {
     font-size: 1.25rem;
     border-radius: 0.3rem;
     text-decoration: none;
+    border: 1px solid #FF900E;
+    transition: background-color 0.4s, color 0.4s, border 0.4s;
 }
+
+.btn:hover{
+    background-color: #fff;
+    color: #FF900E;
+    border: 1px solid #FF900E;
+}
+
 /* Header */
 
 header{
@@ -60,6 +69,7 @@ header{
     width: 120rem;
     background-color: rgba(255, 144, 14, 0.1);
 }
+
 /* Nav Bar */
 
 .navbar{
@@ -71,6 +81,7 @@ header{
 
 .logo{
     font-size: 2.8rem;
+    text-decoration: none;
 }
 
 .navlinks{
@@ -84,6 +95,11 @@ header{
     text-decoration: none;
     font-size: 1.125rem;
     line-height: 1.5;
+    transition: font-weight 0.2s ease;
+}
+
+.navlinks li a:hover{
+    font-weight: 600;
 }
 
 /* Hero Section */
@@ -119,6 +135,7 @@ header{
 }
 
 /* Feature Images Section */
+
 main{
     width: 120rem;
 }
@@ -292,4 +309,66 @@ main{
 .fact-internal h6{
     font-size: 1.25rem;
     font-weight: 600;
+}
+
+/* Sponsors Section */
+
+footer{
+    width: 120rem;
+}
+
+.sponsors-section{
+    margin: 5rem auto 8.125rem;
+    width: 90rem;
+    align-items: center;
+}
+
+.sponsors-section h2{
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+.sponsors-section p{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    width: 34rem;
+    margin: 1.5rem 0 3.125rem;
+}
+
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 7.5rem;
+}
+
+.sponsor-internal{
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.sponsor-internal:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.sponsor-internal img{
+    width: 100%;
+}
+
+/* Copyright */
+
+.copyright{
+    background-color: #FFF4E7;
+    width: 90rem;
+    margin: 0 auto;
+    padding: 2.375rem 0;
+    border-radius: 0.5rem;
+}
+
+.copyright p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
 }
