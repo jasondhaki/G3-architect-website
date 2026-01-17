@@ -1,0 +1,213 @@
+@media screen and (max-width: 992px){
+
+    .btn{
+        padding: 0.62rem 0.775rem;
+        font-size: 0.6458rem;
+    }
+
+    /* Header */
+
+    header{
+        padding: 1.4467rem 0;
+        width: 62rem;
+    }
+
+    /* Nav Bar */
+
+    .navbar{
+        width: 46.5rem;
+    }
+
+    .logo{
+        font-size: 1.4467rem;
+    }
+
+    .navlinks{
+        gap: 1.2917rem;
+    }
+
+    .navlinks li a{
+        font-size: 0.5813rem;
+    }
+
+    /* Hero Section */
+
+    .hero{
+        width: 46.5rem;
+        margin: 3.2292rem auto 0;
+    }
+
+    .hero-content{
+        width: 28.4167rem;
+    }
+
+    .hero-content h1{
+        font-size: 2.0667rem;
+    }
+
+    .hero-content p{
+        font-size: 0.5167rem;
+        margin: 1.0333rem 0;
+    }
+
+    .hero-img{
+        margin-top: 1.55rem;
+    }
+
+    /* Feature Images Section */
+
+    main{
+        width: 62rem;
+    }
+
+    .features{
+        width: 46.5rem;
+        margin: 2.5833rem auto;
+        gap: 2.325rem;
+    }
+
+    .images{
+        grid-template-columns: repeat(2, 10.3333rem);
+        grid-template-rows: repeat(2, 10.3333rem);
+        gap: 0.62rem;
+    }
+
+    .img-content h2{
+        font-size: 1.4467rem;
+        width: 17.05rem;
+    }
+
+    .img-content p{
+        font-size: 0.5167rem;
+        width: 17.05rem;
+        margin: 0.8783rem 0 1.0333rem;
+    }
+
+    /* Enjoy Content */
+
+    .enjoy{
+        width: 46.5rem;
+        margin: 0 auto 2.5833rem;
+        gap: 4.65rem;
+    }
+
+    .title{
+        gap: 0.6458rem;
+    }
+
+    .title-line{
+        width: 0.2067rem;
+        height: 3.4617rem;
+    }
+
+    .title h5{
+        font-size: 1.4467rem;
+        width: 15.5rem;
+    }
+
+    .enjoy-content p{
+        font-size: 0.5167rem;
+        margin: 0.775rem 0;
+    }
+
+    .box h6{
+        font-size: 0.6458rem;
+    }
+
+    .box p{
+        margin: 0.3229rem 0 0;
+    }
+
+    .box{
+        padding: 0.9688rem;
+    }
+
+    .boxes{
+        gap: 0.6458rem;
+    }
+
+    .experience-tag{
+        padding: 1.0333rem;
+    }
+
+    .experience-tag h1{
+        font-size: 1.8083rem;
+    }
+
+    .experience-tag h6{
+        font-size: 0.775rem;
+    }
+
+    /* Facts */
+
+    .facts-section{
+        margin: 3.1rem auto;
+        width: 46.5rem;
+    }
+
+    .facts-section h1{
+        font-size: 1.4531rem;
+    }
+
+    .facts-section p{
+        font-size: 0.5167rem;
+        width: 17.5667rem;
+        margin: 0.775rem 0 3.2033rem;
+    }
+
+    .facts{
+        grid-template-columns: repeat(4, 7.75rem);
+        grid-template-rows: repeat(1, 7.75rem);
+        gap: 4.0042rem;
+        margin-left: 1.2917rem;
+    }
+
+    .fact-internal{
+        padding: 1.4467rem 1.1625rem;
+    }
+
+    .fact-internal h2{
+        font-size: 1.4531rem;
+        margin: 0.155rem 0 0.2583rem;
+    }
+
+    .fact-internal h6{
+        font-size: 0.6458rem;
+    }
+
+    /* Sponsors Section */
+
+    footer{
+        width: 62rem;
+    }
+
+    .sponsors-section{
+        margin: 2.5833rem auto 4.1979rem;
+        width: 46.5rem;
+    }
+
+    .sponsors-section h2{
+        font-size: 1.4531rem;
+    }
+
+    .sponsors-section p{
+        font-size: 0.5167rem;
+        width: 17.5667rem;
+        margin: 0.775rem 0 1.6146rem;
+    }
+
+    .sponsors{
+        gap: 3.875rem;
+    }
+
+    /* Copyright */
+
+    .copyright{
+        width: 46.5rem;
+        padding: 1.2271rem 0;
+    }
+
+    .copyright p{
+        font-size: 0.6458rem;
+    }
+}
